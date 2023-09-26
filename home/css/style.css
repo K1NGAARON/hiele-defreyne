@@ -22,7 +22,7 @@
     background-image: url("/home/img/above-footer.jpg");
     min-height: 900px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 }
