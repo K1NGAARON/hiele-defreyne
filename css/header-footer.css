@@ -42,12 +42,16 @@
 }
 
 .footer-logo {
-    color: var(--primary);
+    font-family: 'termina', sans-serif;
+    text-transform: uppercase;
+    color: var(--white);
     font-weight: 700;
     font-size: 26px;
 }
 
 .header .nav-logo {
+    font-family: 'termina', sans-serif;
+    text-transform: uppercase;
     color: var(--white);
     font-weight: 700;
     font-size: 26px;
