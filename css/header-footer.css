@@ -9,12 +9,12 @@
 .header.active {
     position: fixed;
     top: 0;
-    background-color: var(--white);
+    background-color: var(--black);
     transition: background-color 200ms linear;
 }
 
 .header .icon svg {
-    fill: var(--primary);
+    fill: var(--white);
     width: 40px;
 }
 
@@ -31,7 +31,7 @@
     min-height: unset;
     align-items: center;
     justify-content: flex-end;
-    padding: 10px 0;
+    padding: 10px 30px;
     margin: 0 auto;
     background-color: transparent;
 }
@@ -48,9 +48,10 @@
 }
 
 .header .nav-logo {
-    margin-right: auto;
+    color: var(--white);
     font-weight: 700;
     font-size: 26px;
+    margin-right: auto;
 }
 
 .header .container {
@@ -110,7 +111,7 @@
     min-height: unset;
     justify-content: space-between;
     margin: 30px auto;
-    padding: 0;
+    padding: 10px 30px;
 }
 
 .footer .row .col {

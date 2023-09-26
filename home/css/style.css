@@ -18,45 +18,13 @@
     text-align: center;
 }
 
-.banner .overlay {
-    opacity: 0.8;
-}
-
-.reviews,
-.reviews .row {
-    height: 40vh;
-}
-
-.reviews.section .row .review-wrapper {
-    flex-direction: column;
-}
-
-.reviews.section .row .review-wrapper .review-author {
-    color: var(--primary);
-}
-
-.dots {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.dots .dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: var(--primary);
-    opacity: 0.4;
-    transition: var(--transition);
-}
-
-.dots .dot:hover {
-    cursor: pointer;
-}
-
-.dots .dot.active {
-    opacity: 1;
-    transition: var(--transition);
+.section .parallax {
+    background-image: url("/home/img/above-footer.jpg");
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 560px) {

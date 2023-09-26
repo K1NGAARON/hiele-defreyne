@@ -79,6 +79,14 @@ img {
     height: auto;
 }
 
+p.width-60 {
+    width: 60%;
+}
+
+p.center {
+    text-align: center;
+}
+
 .hidden {
     display: none;
 }
@@ -132,6 +140,11 @@ img {
     align-items: center;
 }
 
+.section .row.flex-col.center h2,
+.section .row.flex-col p {
+    text-align: center;
+}
+
 .section .row .col {
     flex: 1 0 350px;
 
@@ -142,14 +155,11 @@ img {
 
 .btn {
     width: fit-content;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
     text-align: center;
-    color: var(--white);
-    background-color: var(--primary);
-    border: 1px solid var(--primary);
-    border-radius: 5px;
-    padding: 10px 15px;
+    text-transform: uppercase;
+    color: var(--primary);
     transition: var(--transition); 
 }
 
@@ -191,7 +201,7 @@ img {
 
 .overlay {
     background: var(--overlay);
-    opacity: 0.5;
+    opacity: 0.4;
     position: absolute;
     top: 0;
     right: 0;
@@ -253,6 +263,30 @@ img {
     transform: scale(1.02);
 }
 
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    opacity: 0.4;
+    transition: var(--transition);
+}
+
+.dots .dot:hover {
+    cursor: pointer;
+}
+
+.dots .dot.active {
+    opacity: 1;
+    transition: var(--transition);
+}
+
 .slideUp {
     animation: slide-up 1s ease 0s 1 normal forwards;
 }
@@ -291,7 +325,7 @@ img {
         font-size: 26px;
     }
 
-    p.width-50 {
+    p.width-60 {
         width: 100%;
     }
 }
