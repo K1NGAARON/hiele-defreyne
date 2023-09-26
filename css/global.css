@@ -214,11 +214,8 @@ p.center {
 
 .form-wrapper {
     display: flex;
-    width: 80%;
+    width: 50%;
     padding: 30px;
-    border-radius: 3px;
-    background-color: var(--white);
-    box-shadow: var(--boxShadow);
 }
 
 .form-wrapper form {
@@ -234,9 +231,9 @@ p.center {
     flex: 1;
     width: 100%;
     padding: 16px;
-    background-color: hsla(0, 0%, 100%, 0.1);
+    background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 1px solid var(--white);
     border-radius: 0;
     height: 60px;
     outline: none;
@@ -245,22 +242,49 @@ p.center {
 }
 
 .form-wrapper input:focus {
+    border-bottom: 2px solid var(--white);
     transition: border-bottom 200ms ease;
-    border-bottom: 2px solid var(--primary);
+}
+
+.form-wrapper .dots {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.form-wrapper .dots .dot {
+    flex: 0 1;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background-color: var(--white);
+}
+
+.form-wrapper .dots .dot:hover {
+    cursor: pointer;
+}
+
+.form-wrapper .dots.dot:checked {
+    background-color: var(--white);
 }
 
 .form-wrapper .btn {
-    color: var(--white);
-    background-color: var(--primary);
-    border-bottom: 1px solid var(--primary);
-    transition: border-bottom 200ms ease;
-    transition: var(--transition);
+    color: var(--primary);
+    border-bottom: none;
     margin-top: 20px;
-    border-radius: 12px;
+    transition: var(--transition);
 }
 
 .form-wrapper .btn:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
+    transition: var(--transition);
 }
 
 .dots {
