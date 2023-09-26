@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://use.typekit.net/zdv0evm.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
     --primary: #a18863;
@@ -25,11 +26,21 @@ html {
 }
 
 /* TERMINA FONTS */
-
-
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'termina', sans-serif;
+    text-transform: uppercase;
+}
 
 /* ROBOTO FONTS */
-
+p,
+a,
+li {
+    font-family: Roboto;
+}
 
 
 h1,
