@@ -249,6 +249,7 @@ p.center {
 .form-wrapper .dots {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     width: fit-content;
     margin: 0 auto;
@@ -265,6 +266,10 @@ p.center {
     -webkit-appearance: none;
     border: none;
     background-color: var(--white);
+}
+
+.form-wrapper .dots label {
+    color: var(--white);
 }
 
 .form-wrapper .dots .dot:hover {
