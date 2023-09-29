@@ -22,8 +22,8 @@ function enableScroll() {
 }
 
 function closeMenu(e) {
-    $(menuToggle).removeClass('open'); 
     $(regularNav).removeClass('toggled');
+    $(menuToggle).removeClass('open'); 
     $(menuContent).removeClass('active');
     $(overlay).removeClass('active');
     enableScroll();
@@ -34,10 +34,10 @@ function openMenu(e) {
         closeMenu();
     } else {
         window.scrollTo(0, 0);
-        $(menuToggle).addClass('open'); 
         $(regularNav).addClass('toggled');
         $(menuContent).addClass('active');
         $(overlay).addClass('active');
+        $(menuToggle).addClass('open');
         disableScroll();
     }
 }
