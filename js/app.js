@@ -8,15 +8,59 @@ $(document).scroll(function () {
     }
 });
 
-$("#menu-toggle").click(function() {
-    $(".small-menu-wrapper").toggle("active");
-});
+const menuToggle = document.querySelector('#menu-toggle');
+const regularNav = document.querySelector('.header');
+const menuContent = document.querySelector('.navigation-box');
+const overlay = document.querySelector('.overlay.header-toggle');
 
-function closeMenu() {
-    $('.small-menu-wrapper').css('display', 'none');
-};
+function closeMenu(e) {
+    $(menuToggle).removeClass('open'); 
+    $(regularNav).removeClass('toggled');
+    $(menuContent).removeClass('active');
+    $(overlay).removeClass('active');
+}
 
-$('.small-menu-content .nav').click(closeMenu);
+function openMenu(e) {
+    if ($(menuToggle).hasClass('open')) {
+        closeMenu();
+    } else {
+        window.scrollTo(0, 0);
+        $(menuToggle).addClass('open'); 
+        $(regularNav).addClass('toggled');
+        $(menuContent).addClass('active');
+        $(overlay).addClass('active');
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
+$(menuToggle).click(openMenu);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 let animationStyle = "slideUp";
