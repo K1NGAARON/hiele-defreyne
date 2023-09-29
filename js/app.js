@@ -1,12 +1,12 @@
-$(document).scroll(function () {
-    const header = $('.header');
+// $(document).scroll(function () {
+//     const header = $('.header');
 
-    if ($(this).scrollTop() > header.height()) {
-        header.addClass('active');
-    } else {
-        header.removeClass('active');
-    }
-});
+//     if ($(this).scrollTop() > header.height()) {
+//         header.addClass('active');
+//     } else {
+//         header.removeClass('active');
+//     }
+// });
 
 const menuToggle = document.querySelector('#menu-toggle');
 const regularNav = document.querySelector('.header');
