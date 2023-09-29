@@ -45,21 +45,6 @@ function openMenu(e) {
 $(menuToggle).click(openMenu);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let animationStyle = "slideUp";
 let animationTarget = ".animate";
 let firstTime = true;

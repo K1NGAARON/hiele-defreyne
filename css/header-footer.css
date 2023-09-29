@@ -67,7 +67,7 @@
 }
 
 .header.toggled .nav-logo {
-    visibility: hidden;
+    display: none;
 }
 
 .navigation-box {
