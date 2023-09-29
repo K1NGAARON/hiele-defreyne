@@ -113,6 +113,11 @@
     opacity: 0.6;
 }
 
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
 .footer {
     min-height: unset;
     color: var(--white);

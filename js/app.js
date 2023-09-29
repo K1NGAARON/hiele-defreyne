@@ -13,11 +13,20 @@ const regularNav = document.querySelector('.header');
 const menuContent = document.querySelector('.navigation-box');
 const overlay = document.querySelector('.overlay.header-toggle');
 
+function disableScroll() {
+    document.body.classList.add("stop-scrolling");
+}
+
+function enableScroll() {
+    document.body.classList.remove("stop-scrolling");
+}
+
 function closeMenu(e) {
     $(menuToggle).removeClass('open'); 
     $(regularNav).removeClass('toggled');
     $(menuContent).removeClass('active');
     $(overlay).removeClass('active');
+    enableScroll();
 }
 
 function openMenu(e) {
@@ -29,20 +38,8 @@ function openMenu(e) {
         $(regularNav).addClass('toggled');
         $(menuContent).addClass('active');
         $(overlay).addClass('active');
+        disableScroll();
     }
-
-    
-
-
-
-
-
-
-
-
-
-
-
 }
 
 $(menuToggle).click(openMenu);
