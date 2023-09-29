@@ -33,7 +33,7 @@ function openMenu(e) {
     if ($(menuToggle).hasClass('open')) {
         closeMenu();
     } else {
-        window.scrollTo(0, 0);
+        // window.scrollTo(0, 0);
         $(regularNav).addClass('toggled');
         $(menuContent).addClass('active');
         $(overlay).addClass('active');
