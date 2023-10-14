@@ -3,22 +3,22 @@ function addProjects(e) {
         {
             title: "Project 1",
             img: "https://placehold.co/1200x800/EEE/31343C",
-            link: "/realisaties/liesa/",
+            link: "/projecten/project-voorbeeld/",
         },
         {
             title: "Project 2",
             img: "https://placehold.co/1200x800/EEE/31343C",
-            link: "/realisaties/liesa/",
+            link: "/projecten/project-voorbeeld/",
         },
         {
             title: "Project 3",
             img: "https://placehold.co/1200x800/EEE/31343C",
-            link: "/realisaties/liesa/",
+            link: "/projecten/project-voorbeeld/",
         },
         {
             title: "Project 4",
             img: "https://placehold.co/1200x800/EEE/31343C",
-            link: "/realisaties/liesa/",
+            link: "/projecten/project-voorbeeld/",
         },
         // {
         //     title: "",
