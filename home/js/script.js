@@ -18,10 +18,15 @@ function changeReviews() {
     $(this).addClass('active');
 
     const dotIndex = $('.dot').index(this);
+
     const reviewContainer = $('.review-wrapper');
 
-    reviewContainer.find('.review-author').text(reviews[dotIndex].name);
-    reviewContainer.find('.review-body').text(reviews[dotIndex].review);
+    if (!reviewContainer) {
+        return;
+    } else {
+        reviewContainer.find('.review-author').text(reviews[dotIndex].name);
+        reviewContainer.find('.review-body').text(reviews[dotIndex].review);
+    }
 };
 
 $('.dot').click(changeReviews);
