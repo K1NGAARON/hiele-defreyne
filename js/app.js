@@ -1,13 +1,3 @@
-// $(document).scroll(function () {
-//     const header = $('.header');
-
-//     if ($(this).scrollTop() > header.height()) {
-//         header.addClass('active');
-//     } else {
-//         header.removeClass('active');
-//     }
-// });
-
 const menuToggle = document.querySelector('#menu-toggle');
 const regularNav = document.querySelector('.header');
 const menuContent = document.querySelector('.navigation-box');
@@ -43,6 +33,7 @@ function openMenu(e) {
 }
 
 $(menuToggle).click(openMenu);
+$('#close-icon').click(closeMenu);
 
 
 let animationStyle = "slideUp";
