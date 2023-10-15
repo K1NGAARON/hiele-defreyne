@@ -71,7 +71,7 @@
 }
 
 .navigation-box {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -85,10 +85,12 @@
     left: 50%;
     z-index: 99;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 .navigation-box.active {
-    display: flex;
+    opacity: 1;
 }
 
 .navigation-box .navigation-content {
