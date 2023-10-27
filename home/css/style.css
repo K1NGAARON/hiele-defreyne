@@ -67,11 +67,15 @@
 
 @media (max-width: 560px) {
     .banner {
-        height: fit-content;
+        height: 70vh;
     }
 
     .banner h1,
     .banner p {
         width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 24px;
     }
 }
