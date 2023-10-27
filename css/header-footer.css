@@ -234,4 +234,17 @@
     .footer .row .col:nth-of-type(3) {
         flex: 1 0 100%;
     }
+
+    .navigation-box {
+        top: 40%;
+        height: 60%;
+    }
+
+    .navigation-box .navigation-content .nav {
+        font-size: 26px;
+    }
+
+    .navigation-box .close {
+        font-size: 14px;
+    }
 }
