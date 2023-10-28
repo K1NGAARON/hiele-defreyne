@@ -71,7 +71,7 @@
 }
 
 .navigation-box {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -91,6 +91,7 @@
 
 .navigation-box.active {
     opacity: 1;
+    display: flex;
 }
 
 .navigation-box .navigation-content {
