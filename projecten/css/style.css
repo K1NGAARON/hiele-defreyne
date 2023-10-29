@@ -120,10 +120,18 @@ h3 {
     }
 
     .section.gallery .project-wrapper .item .content h3 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .section.gallery .project-wrapper .item .content a {
         font-size: 12px;
+    }
+
+    .section.gallery .project-wrapper .item .content {
+        display: flex;
+    }
+
+    .project-wrapper .item .overlay {
+        opacity: 0.6;
     }
 }

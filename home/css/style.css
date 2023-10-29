@@ -78,4 +78,8 @@
     .banner h1 {
         font-size: 24px;
     }
+
+    .splide__slide h3 {
+        font-size: 16px;
+    }
 }
