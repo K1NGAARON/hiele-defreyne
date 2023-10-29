@@ -1,35 +1,35 @@
 function addProjects(e) {
     const projects = [
         {
-            title: "Project 1",
-            img: "https://placehold.co/1200x800/EEE/31343C",
+            title: "Project Bellegem",
+            img: "/projecten/img/bellegem.jpg",
             link: "/projecten/project-voorbeeld/",
         },
         {
-            title: "Project 2",
-            img: "https://placehold.co/1200x800/EEE/31343C",
+            title: "Project Gistel",
+            img: "/projecten/img/gistel.jpg",
             link: "/projecten/project-voorbeeld/",
         },
         {
-            title: "Project 3",
-            img: "https://placehold.co/1200x800/EEE/31343C",
+            title: "Project Kortrijk",
+            img: "/projecten/img/kortrijk.jpg",
             link: "/projecten/project-voorbeeld/",
         },
         {
-            title: "Project 4",
-            img: "https://placehold.co/1200x800/EEE/31343C",
+            title: "Project Kruiskerke",
+            img: "/projecten/img/kruiskerke.jpg",
             link: "/projecten/project-voorbeeld/",
         },
-        // {
-        //     title: "",
-        //     img: "",
-        //     link: "",
-        // },
-        // {
-        //     title: "",
-        //     img: "",
-        //     link: "",
-        // },
+        {
+            title: "Project Roeselare",
+            img: "/projecten/img/roeselare.jpg",
+            link: "/projecten/project-voorbeeld/",
+        },
+        {
+            title: "Project Sint-Joris",
+            img: "/projecten/img/sint-joris.jpg",
+            link: "/projecten/project-voorbeeld/",
+        },
     ];
 
     const target = document.querySelector('#project-wrapper');
