@@ -35,6 +35,12 @@ function openMenu(e) {
 $(menuToggle).click(openMenu);
 $('#close-icon').click(closeMenu);
 
+function checkFormField(e) {
+    $('.form-wrapper .dot').removeClass('active');
+    $(this).addClass('active');
+};
+
+$('.form-wrapper .dot').click(checkFormField);
 
 let animationStyle = "slideUp";
 let animationTarget = ".animate";
