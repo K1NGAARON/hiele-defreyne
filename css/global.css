@@ -333,6 +333,12 @@ p.center {
 	}
 }
 
+@media (max-width: 800px) {
+    .banner.section h1 {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 560px) {
     .section .row .col {
         flex: 1 0 100%;
