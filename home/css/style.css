@@ -1,7 +1,7 @@
 .banner {
     justify-content: center;
     height: 100vh;
-    background-image: url('/home/img/banner.jpg');
+    background-image: url('/home/img/banner-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -63,6 +63,10 @@
 
 .projects .btn {
     margin-top: 40px;
+}
+
+.contact h2 {
+    font-size: 32px;
 }
 
 @media (max-width: 560px) {

@@ -42,6 +42,10 @@ li {
     font-family: Roboto, sans-serif;
 }
 
+.section .row p.uppercase {
+    color: var(--primary);
+    text-transform: uppercase;
+}
 
 h1,
 h2,
