@@ -25,11 +25,11 @@ function addProjects(e) {
             img: "/projecten/img/roeselare.jpg",
             link: "/projecten/project-voorbeeld/",
         },
-        {
-            title: "Project Sint-Joris",
-            img: "/projecten/img/sint-joris.jpg",
-            link: "/projecten/project-voorbeeld/",
-        },
+        // {
+        //     title: "Project Sint-Joris",
+        //     img: "/projecten/img/sint-joris.jpg",
+        //     link: "/projecten/project-voorbeeld/",
+        // },
     ];
 
     const target = document.querySelector('#project-wrapper');
