@@ -1,3 +1,7 @@
+.section.banner {
+    background-image: url("../img/banner.jpg");
+}
+
 .section .parallax {
     background-image: url("/home/img/above-footer.jpg");
     min-height: 900px;
