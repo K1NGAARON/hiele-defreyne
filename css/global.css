@@ -43,7 +43,7 @@ li {
 }
 
 .section .row p.uppercase {
-    color: var(--primary);
+    color: var(--white);
     text-transform: uppercase;
 }
 
