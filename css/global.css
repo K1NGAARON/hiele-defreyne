@@ -385,6 +385,10 @@ p.center {
     .form-wrapper .dots {
         font-size: 12px;
     }
+
+    .section .parallax {
+        display: none;
+    }
 }
 
 @media (max-width: 1000px) {
