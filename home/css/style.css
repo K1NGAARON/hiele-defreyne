@@ -56,8 +56,11 @@
     color: var(--white);
 }
 
-.splide__slide h3,
 .splide__slide a {
+    font-family: 'termina', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -83,7 +86,7 @@
         font-size: 24px;
     }
 
-    .splide__slide h3 {
+    .splide__slide a {
         font-size: 16px;
     }
 
